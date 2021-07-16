@@ -1,0 +1,226 @@
+#head{
+    position: relative;
+    background-image:url(Fingers_Laptops_Ballpoint_pen_Hands_Manicure_557083_1600x1200.jpg);
+    position: relative;
+    height: 742px;
+}
+#overall{
+    /* position: relative; */
+    margin-left: 7px;
+    position: absolute;
+    left: 58px;
+    width: 1494px;
+    height: 1339px;
+}
+#divhead{
+    position: relative;
+    top: -503px;
+    width: 316px;
+}
+#divct{
+    font-size: xxx-large;
+    font-weight: bolder;
+    font-style: italic;
+    font-family: math;
+    color:white;
+    top: -601px;
+    position: relative;
+    cursor: pointer;
+    animation: moveright 2s linear;
+    animation-delay: 4s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+}
+@keyframes moveright{
+    0%{
+        transform: translateX(-100px);
+        visibility: hidden;
+    }
+    100%{
+        transform: translateX(0);
+        visibility: visible;
+    }
+}
+
+
+#button1{
+    position: relative;
+    width: 173px;
+    height: 46px;
+	border-radius:5px 5px 5px 5px;
+    padding:10px;
+	font: size 25px;
+	margin-top:-25px;
+	border-width: 0px;
+	border-style:solid;
+    font-size:smaller;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    color: white;
+    top: -804px;
+    left: 542px;
+}
+#imgdiv{
+    /* background-image: url(Fingers_Laptops_Ballpoint_pen_Hands_Manicure_557083_1600x1200.jpg); */
+    color: white;
+    cursor: pointer;
+    background-repeat: initial;
+    backface-visibility: hidden;
+    position: relative;
+    height: 2px;
+    top: -1189px;
+    width: 40px;
+    left: 508px;
+}
+#imgwmn{
+    position: relative;
+    top: -481px;
+    cursor: pointer;
+    animation: zoomin 2s linear;
+    animation-delay: 5s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+}
+@keyframes zoomin{
+    0%{
+        transform: scale(0.5);
+        visibility: visible;
+    }
+    100%{
+        transform: scale(1);
+        visibility: visible;
+    }
+}
+.img1{
+    cursor: pointer;
+    animation: movedown 1s linear;
+    animation-delay: 5s;
+    visibility: visible;
+    animation-fill-mode: forwards;
+}
+
+#logo{
+    color: white;
+    cursor: pointer;
+    animation: movedown 1s linear;
+    animation-delay: 1s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+}
+@keyframes movedown{
+    0%{
+        transform: translateY(-100px);
+        visibility: hidden;
+    }
+    100%{
+        transform: translateY(0);
+        visibility: visible;
+    }
+}
+#about{
+    position: relative;
+    top: -676px;
+}
+.div3{
+    position: relative;
+    background-image: url(action-plan-agenda-analysis-analytics.jpg);
+    bottom: 676px;
+    height: 371px;
+}
+#div3content{
+    position: relative;
+    color: white;
+    height: 70px;
+    width: 429px;
+    top: -215px;
+    left: 197px;
+
+}
+#button{
+    color: white;
+    background-color:tomato;
+    width: 119px;
+    height: 29px;
+	border-radius:5px 5px 5px 5px;
+    padding:10px;
+	font: size 25px;
+	margin-top:-25px;
+	border-width: 0px;
+	border-style:solid;
+    font-size:smaller;
+    position: relative;
+    top: -47px;
+    left: 337px;
+}
+#footer{
+    background-color: #333333;
+    position: relative;
+    height: 416px;
+    top: -676px
+}
+#name{
+    width: 344px;
+	height: 2px;
+	border-radius:5px 5px 5px 5px;
+	background:white;
+	padding:10px;
+	font: size 16px;
+	margin-top:8px;
+	border-width: 1px;
+	border-style:solid;
+	border-color: gray;
+}
+#mail{
+    width:344px;
+	height: 2px;
+	border-radius:5px 5px 5px 5px;
+	background:white;
+	padding:10px;
+	font: size 16px;
+	margin-top:8px;
+	border-width: 1px;
+	border-style:solid;
+	border-color: gray;
+}
+#comments{
+    width:344px;
+	height: 127px;
+	border-radius:5px 5px 5px 5px;
+	background:white;
+	padding:10px;
+	font: size 16px;
+	margin-top:8px;
+	border-width: 1px;
+	border-style:solid;
+	border-color: gray;
+}
+#submit{
+    width: 110px;
+    height: 34px;
+    border-radius: 5px 5px 5px 5px;
+    background: #8c2c2c;
+    color: white;
+	padding:10px;
+	font: size 16px;
+	margin-top:8px;
+	border-width: 1px;
+	border-style:solid;
+	border-color: gray;
+    position: relative;
+    left: 386px;
+    top: -97px;
+}
+.form{
+    position: relative;
+    left: 37px;
+    width: 574px;
+    border-right: 2px solid white;
+    
+}
+#cntimg{
+    position: relative;
+    left: 587px;
+    top: -278px;
+    width: 467px;
+    height: 297px;
+}

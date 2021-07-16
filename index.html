@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <script>
+        $(document).ready(function(){
+            $("#button").on({
+                mouseenter: function(){
+                $(this).css("background-color", "red");
+                },  
+                mouseleave: function(){
+                $(this).css("background-color", "silver");
+                }, 
+                click: function(){
+                $(this).css("background-color", "lightblue");
+                }  
+            });
+            $("#divct").on({
+                mouseenter: function(){
+                $(this).css("color", "black");
+                },  
+                mouseleave: function(){
+                $(this).css("color", "white");
+                }, 
+                 
+            });
+            $("#cntdiv").on({
+                mouseenter: function(){
+                $(this).css("color", "blue");
+                },  
+                mouseleave: function(){
+                $(this).css("color", "silver");
+                }, 
+            });
+            
+            $("#button1").on({
+                mouseenter: function(){
+                $(this).css("background-color", "red");
+                },  
+                mouseleave: function(){
+                $(this).css("background-color", "black");
+                }, 
+                
+                click:function(){
+                    $("#img1").toggle()
+                } 
+            });
+        });
+        
+        
+    </script>
+    
+</head>
+<body>
+    <div id="overall" class="container">
+        <div id="head">
+            <nav id="logo" class="navbar bg-brown navbar-expand-sm navbar-dark;">
+                <a href="" class="navbar-brand" style="font-weight: bolder; color: white;" >SAC LOGO</a>
+        
+                <ul class="navbar-nav" style="margin-left: auto;">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link" style="color: white;">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#div3content" class="nav-link" style="color: white;">Partner Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="login.html" class="nav-link" style="color: white;">Login</a> 
+
+                    </li>
+                </ul>
+            </nav>
+
+
+        </div>
+        <div id="imgwmn"><img src="OIP (1).png" style="position: relative;height: 500px;width: 400px;" alt=""></div>
+        <div id="divhead"><h1 id="divct">Catch Your Dream with SAC</h1></div>
+        <button type="submit" id="button1">EXPLORE MORE</button>
+        <div id="imgdiv">
+            <h6  id="img1" class="img1" style="position: relative;width: 320px;font-size:large;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-style: italic;">Internet Marketing has given tremendous advantage to smaller and mid-sized businesses that could never compete in the 
+                pre-internet world of traditional marketing. More than a simple website, Internet Marketing is today one of the most important strategic 
+                concerns of thousands, if not millions, of organizations 
+                large and small.</h6>
+        </div>
+        
+        <div class="jambotron text-center" style="position: relative; top: -690px;">
+            <h1 class="display-4" id="cntdiv">WELCOME TO SOFTEN TECHNOLOGIES</h1>
+            <h3 class="display-5">You’re warmly welcome to our Networking and Software Solution Center in Cochin. Soften Technologies is one of the top system integrator partners offering an entire range of IT integrated products and services.</h3>
+        </div>
+        <div class="container" id="about">
+            <div class="row">
+                <div class="col-sm-4 text-white" style="background-color: cadetblue;" >
+                    <h3>Corporate Training</h3>
+                    <p>We believe great businesses are built on great experiences. And, we practice a collaborative, user-centric design process that delivers online experiences your users will love.We understand that it’s not just about the app, website or campaign. 
+
+                        “Our approach is collaborative and adaptive. We want clients to be immersed in the project and creative process. Through activities like hands-on workshops, focus groups, user-journey mapping.</p>
+                </div>
+                <div class="col-sm-4 text-white" style="background-color:darkcyan">
+                    <h3>Branding</h3>
+                    <p>We believe great businesses are built on great experiences. And, we practice a collaborative, user-centric design process that delivers online experiences your users will love.We understand that it’s not just about the app, website or campaign. It’s more about outcomes – such as user engagement, productivity, enquiries and sales. We are invested in achieving measurable results. We are invested in achieving measurable results.</p>
+                </div>
+                <div class="col-sm-4 text-white" style="background-color:darkslategray">
+                    <h3>Internship Programs</h3>
+                    <p>Soften Technologies is radipdly growing technology Company based Cochin, that builds sophisticated web applications for clients as well as for its own busines We’re a full service development firm who’ve launed several web applications where we work with clients from an idea to a prototype to production with real world users.</p>
+                </div>
+            </div>    
+        </div>
+        <div class="div3">
+            <div style="background-image: url(HD-wallpaper-finance-plan-ultra-computers-hardware-internet-business-laptop-desk-hands-work-technology-computer-office-money-macbook-planning-information-topview-workplace-cupofcoffee-startup-woodentable-thumbnail.jpg);height: 289px; width: 391px;background-repeat: no-repeat;position: relative;top: 74px;left: 675px;"></div>
+            <div id="div3content"><p>The interest is paid on a quarterly, monthly or annual basis in non-cumulative fixed deposit schemes. Also, the interest earned monthly from your non-cumulative fixed deposits will be taxable. This scheme is most suitable for an individual who is in need of an interest payout periodically.
+                There is no fixed interest payable over a quarter, half-year or annually in a cumulative fd scheme in that the interest rate is compounded every quarter or year and payable at the time of maturity with the principal.
+            </p></div> 
+            <form action="login.html"><button type="submit" id="button" >Know more</button></form>
+
+
+        </div>
+        <div id="footer">
+            <form action="" class="form">
+                <p style="color: white;font-family: fantasy;font-size: x-large;">Feedbacks</p>
+                <div class="form-grp">
+                    <input type="text" placeholder="Firstname"  id="name"name="fname"/><br>
+                    
+                    <input type="text" placeholder="Email or Phonenumber" id="mail" name="email"/><br>
+                    <input type="text" placeholder="Comments" id="comments" name="pass"><br>
+                    <button class="btn-btn-primary" type="submit" id="submit">Submit</button>
+                </div>
+                <div id="cntimg">
+                    <img src="Fingers_Laptops_Ballpoint_pen_Hands_Manicure_557083_1600x1200.jpg"  height="299cm" width="472cm" alt="">
+                </div>
+                
+    
+            </form>
+            <div style="position: relative;background-color: black;color: white;height: 60px;top: -231px;">
+                <h6 style="text-align: center;">@Copyright All rights reserved.</h6>
+
+            </div>
+
+        </div>
+ 
+    </div>
+    
+</body>
+</html>
